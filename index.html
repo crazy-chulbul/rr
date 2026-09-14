@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <title>Crazy Music – Your Music Player</title>
+</head>
+
+<body>
+
+    <div class="container flex bg-black">
+
+        <!-- MOBILE LIBRARY BUTTON -->
+        <button class="mobile-menu" id="libraryOpen" type="button" aria-label="Open Library">
+            ☰
+        </button>
+
+
+        <!-- LEFT SIDEBAR -->
+        <div class="left" id="leftSidebar">
+
+            <!-- MOBILE CLOSE BUTTON -->
+            <button class="mobile-close" id="libraryClose" type="button" aria-label="Close Library">
+                ✕
+            </button>
+
+            <div class="library bg-gray rounded m-1 p-1">
+
+                <!-- BRAND -->
+                <div class="brand">
+
+                    <div class="brand-icon">
+                        <img src="WhatsApp Image 2026-09-14 at 9.53.07 PM.jpeg" alt="Crazy Music">
+                    </div>
+                    <div>
+                        <h1>Crazy Music</h1>
+                        <p>Your personal playlist</p>
+                    </div>
+
+                </div>
+
+
+                <!-- LIBRARY HEADING -->
+                <div class="heading">
+
+                    <img class="invert" src="library.svg" alt="Library">
+
+                    <h2>Your Library</h2>
+
+                </div>
+
+
+                <!-- SONG LIST -->
+                <div class="songlist">
+
+                    <ul>
+                    </ul>
+
+                </div>
+
+
+                <!-- FOOTER -->
+                <div class="footer">
+
+                    <ul>
+
+                        <li>
+                            <a href="https://www.spotify.com/in-en/legal/">
+                                Legal
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                                Safety & Privacy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                                Privacy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                Cookies
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.spotify.com/in-en/accessibility/">
+                                Accessibility
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <p class="copyright">
+                        © 2026 Crazy Music
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT CONTENT -->
+        <div class="right home bg-gray rounded">
+
+
+            <!-- TOP BAR -->
+            <div class="header">
+
+                <div class="header-title">
+
+                    <span class="music-dot"></span>
+
+                    <div>
+                        <h3>Welcome to Spotify  2.8 </h3>
+                        <p>Listen to what you love</p>
+                    </div>
+
+                </div>
+
+
+                <div class="header-status">
+
+                    <span class="status-dot"></span>
+
+                    Music Player
+
+                </div>
+
+            </div>
+
+
+            <!-- PLAYLIST -->
+            <div class="spotify-playlist">
+
+
+                <!-- PLAYLIST HEADING -->
+                <div class="playlist-heading">
+
+                    <div>
+
+                        <p class="small-title">
+                            YOUR PLAYLISTS
+                        </p>
+
+                        <h1>
+                            Made for you 🎧
+                        </h1>
+
+                        <p class="playlist-subtitle">
+                            Pick a collection and start listening.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARDS -->
+                <div class="card-container">
+
+
+                    <!-- VARSHA HITS -->
+                    <div data-folder="ncs" class="card">
+
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"
+                                fill="none">
+
+                                <circle cx="12" cy="12" r="12" fill="#1ED760" />
+
+                                <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1.5" />
+
+                                <path d="M10.2 8.7
+                                C9.7 8.4 9.2 8.75 9.2 9.35
+                                V14.65
+                                C9.2 15.25 9.7 15.6 10.2 15.3
+                                L14.7 12.65
+                                C15.2 12.35 15.2 11.65 14.7 11.35
+                                Z" fill="black" />
+
+                            </svg>
+
+                        </div>
+
+
+                        <img src="WhatsApp Image 2026-09-14 at 4.38.31 PM.jpeg" alt="Varsha Hits">
+
+
+                        <div class="card-content">
+
+                            <h2>
+                                Varsha Hits
+                            </h2>
+
+                            <p>
+                                Born to stand out, never to fit in 🔥
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- SMART BOY -->
+                    <div data-folder="cs" class="card">
+
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"
+                                fill="none">
+
+                                <circle cx="12" cy="12" r="12" fill="#1ED760" />
+
+                                <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1.5" />
+
+                                <path d="M10.2 8.7
+                                C9.7 8.4 9.2 8.75 9.2 9.35
+                                V14.65
+                                C9.2 15.25 9.7 15.6 10.2 15.3
+                                L14.7 12.65
+                                C15.2 12.35 15.2 11.65 14.7 11.35
+                                Z" fill="black" />
+
+                            </svg>
+
+                        </div>
+
+
+                        <img class="target" src="brother.jpeg" alt="Crazy Hits">
+
+
+                        <div class="card-content">
+
+                            <h2>
+                                Smart boy
+                            </h2>
+
+                            <p>
+                                Your favourite songs, your vibe ⚡
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CHULBUL VIBES -->
+                    <div data-folder="ch" class="card">
+
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"
+                                fill="none">
+
+                                <circle cx="12" cy="12" r="12" fill="#1ED760" />
+
+                                <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1.5" />
+
+                                <path d="M10.2 8.7
+                                C9.7 8.4 9.2 8.75 9.2 9.35
+                                V14.65
+                                C9.2 15.25 9.7 15.6 10.2 15.3
+                                L14.7 12.65
+                                C15.2 12.35 15.2 11.65 14.7 11.35
+                                Z" fill="black" />
+
+                            </svg>
+
+                        </div>
+
+
+                        <img src="WhatsApp Image 2026-09-14 at 9.53.07 PM.jpeg" alt="Chulbul Hits">
+
+
+                        <div class="card-content">
+
+                            <h2>
+                                Chulbul Vibes
+                            </h2>
+
+                            <p>
+                                Feel the music, forget the world 💫
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- CRAZY RITIK -->
+                    <div data-folder="rk" class="card">
+
+                        <div class="play">
+
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="50" height="50"
+                                fill="none">
+
+                                <circle cx="12" cy="12" r="12" fill="#1ED760" />
+
+                                <circle cx="12" cy="12" r="8" stroke="black" stroke-width="1.5" />
+
+                                <path d="M10.2 8.7
+                                C9.7 8.4 9.2 8.75 9.2 9.35
+                                V14.65
+                                C9.2 15.25 9.7 15.6 10.2 15.3
+                                L14.7 12.65
+                                C15.2 12.35 15.2 11.65 14.7 11.35
+                                Z" fill="black" />
+
+                            </svg>
+
+                        </div>
+
+
+                        <img src="WhatsApp Image 2026-09-14 at 4.25.08 PM.jpeg" alt="Ritik Hits">
+
+
+                        <div class="card-content">
+
+                            <h2>
+                                Crazy ritik
+                            </h2>
+
+                            <p>
+                                Music that matches my crazy side 😎
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- PLAYER -->
+                <div class="playbar">
+
+
+                    <!-- SEEKBAR -->
+                    <div class="seekbar">
+
+                        <div class="circle"></div>
+
+                    </div>
+
+
+                    <!-- PLAYER CONTENT -->
+                    <div class="abovebar">
+
+
+                        <!-- SONG INFO -->
+                        <div class="songinfo">
+                        </div>
+
+
+                        <!-- SONG BUTTONS -->
+                        <div class="songbuttons">
+
+                            <img id="previous" class="invert" src="previous.svg" alt="Previous">
+
+
+                            <img id="play" class="invert" src="playlist.svg" alt="Play">
+
+
+                            <img id="next" class="invert" src="nextsong.svg" alt="Next">
+
+                        </div>
+
+
+                        <!-- SONG TIME -->
+                        <div class="songtime">
+                        </div>
+
+
+                        <!-- VOLUME -->
+                        <div class="volume">
+
+                            <img class="invert" src="volume.svg" alt="Volume">
+
+
+                            <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

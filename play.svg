@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 24 24"
+     width="50"
+     height="50"
+     fill="none">
+
+    <!-- Green circular background -->
+    <circle
+        cx="12"
+        cy="12"
+        r="12"
+        fill="#1ED760"
+    />
+
+    <!-- Black circle -->
+    <circle
+        cx="12"
+        cy="12"
+        r="8"
+        stroke="black"
+        stroke-width="1.5"
+    />
+
+    <!-- Centered black play icon -->
+    <path
+        d="M10.2 8.7
+           C9.7 8.4 9.2 8.75 9.2 9.35
+           V14.65
+           C9.2 15.25 9.7 15.6 10.2 15.3
+           L14.7 12.65
+           C15.2 12.35 15.2 11.65 14.7 11.35
+           Z"
+        fill="black"
+    />
+
+</svg>
